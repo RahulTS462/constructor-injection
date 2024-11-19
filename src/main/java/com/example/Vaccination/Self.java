@@ -42,6 +42,14 @@ public class Self implements User {
         return this.vaccine;
     }
 
+    public void setTimeAndLocation(TimeAndLocation timeAndLocation) {
+        this.timeAndLocation = timeAndLocation;
+    }
+
+    public void setVaccine(Vaccine vaccine) {
+        this.vaccine = vaccine;
+    }
+
     @Override
     public void setUserDetails(String name, int age, TimeAndLocation timeAndLocation) {
         this.name = name;

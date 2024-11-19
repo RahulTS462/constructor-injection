@@ -29,6 +29,18 @@ public class TimeAndLocation {
         this.date = date;
     }
 
+    public void setTimeSlot(String timeSlot) {
+        this.timeSlot = timeSlot;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
     public String getDetails(){
         return timeSlot + " at " + location + " on " + date;
     }
